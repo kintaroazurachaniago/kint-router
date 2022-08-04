@@ -20,7 +20,7 @@ Route.get('/', (req, res) => res.end('Hello world'))
   Or
   
   Route.post('/post/:slug', ...
-  // request.params.username will contain 'lorem-ipsum' if client gives request to url '/post/lorem-ipsum'
+  // request.params.slug will contain 'lorem-ipsum' if client gives request to url '/post/lorem-ipsum'
   // if the request method from the client is 'POST' then the data sent by the client can be retrieved from request.body with object data type
 /*
 
